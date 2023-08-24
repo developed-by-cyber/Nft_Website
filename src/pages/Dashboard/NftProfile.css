@@ -300,4 +300,7 @@
   .my-nfts .nftcard {
     width: 90%;
   }
+  .NftProfile .profile-holder{
+    backdrop-filter: none;
+  }
 }

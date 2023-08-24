@@ -171,7 +171,7 @@
   }
   .Settings .settings-hold {
     background-color: transparent;
-    backdrop-filter: blur(0);
+    backdrop-filter: none;
     width: 100%;
     padding: 30px 0px !important;
     padding-bottom: 80px !important;

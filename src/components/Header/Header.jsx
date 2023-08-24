@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import HeaderImg1 from "../../assets/Headerimg/Mask group.png";
 import ellipse from "../../assets/Headerimg/Ellipse 486.png";
 import star from "../../assets/Headerimg/Star 2.png";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
@@ -27,9 +28,11 @@ function Header() {
                 collectibles and non-fungible tokens (NFTs). Buy, sell, and
                 discover exclusive digital items.
               </p>
-              <button data-aos="fade-down" data-aos-delay="700">
-                Discover Now
-              </button>
+              <Link to='/Dashboard'>
+                <button data-aos="fade-down" data-aos-delay="700">
+                  Discover Now
+                </button>
+              </Link>
             </div>
             <div
               className="landing-right"

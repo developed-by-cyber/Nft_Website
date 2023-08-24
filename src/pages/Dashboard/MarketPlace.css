@@ -248,7 +248,7 @@
 }
 @media screen and (max-width: 768px) {
   .marketplace {
-    padding: 0px 10px !important;
+    padding: 140px 25px !important;
     padding-bottom: 50px !important;
   }
   .marketplace .desktop {
